@@ -5,7 +5,7 @@ from pydantic import BaseModel, Extra
 from sqlmodel import Field, Relationship, SQLModel
 
 if TYPE_CHECKING:
-    from project_name.security import User
+    from troyrc_ota.security import User
 
 
 class Content(SQLModel, table=True):
